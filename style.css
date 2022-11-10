@@ -1,0 +1,47 @@
+:root{
+    --white: #fff;
+    --dark: #000;
+    --red:#FF0000;
+    --yellow:#FFFF00;
+}
+
+.nav,
+ul,
+li,
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 5vh;
+    width: 24vw;
+    background-color: var(--dark);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.red{
+    background-color: var(--red);
+    height: 40vh;
+    width: 50vw;
+    position: absolute;
+    top: 10%;
+}
+.red > h1{
+    text-align: center;
+    color: var(--white);
+}
+
+#para1{
+    background-color: var(--yellow);
+    display: inline;
+    position: absolute;
+    left: 50.8%;
+    bottom: 26.5%;
+}
+.hdngs{
+    background-color: var(--yellow);
+    position: relative;
+    margin-top: 20%;
+    padding: 5%;
+    width: 40.9%;
+    display:flexbox;
+}
